@@ -1,0 +1,56 @@
+.cabecalho {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.cabecalho-titulo {
+    font-family: "https://fonts.google.com/specimen/Signika";
+    color: #7952B3;
+    font-size: 64px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.cabecalho-profile {
+    position: absolute;
+    top: 4%;
+    left: 79.9%;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;    
+}
+
+.cabecalho-profile-img {
+    width: 20px;
+    margin-top: -8px;
+}
+.cabecalho-profile-p {
+
+    font-family: "https://fonts.google.com/specimen/Signika";
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+
+.cabecalho-input {
+    position: absolute;
+    top: 10%;
+    left: 79%;
+    text-align: center;
+    padding-bottom: 2px;
+
+    background-image: url('search.svg');
+    background-repeat: no-repeat;
+    background-position-y: 5.75px;
+    background-position-x: 0.60rem;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
