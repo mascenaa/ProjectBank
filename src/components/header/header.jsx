@@ -1,8 +1,12 @@
 import React from 'react'
 
-import Icon from "../header/icon.svg"
-import '../header/header.css'
-import '../header/search.svg'
+import Icon from "../header/icon.svg";
+import '../header/header.css';
+import '../header/search.svg';
+import 'react-bootstrap';
+import '../header/modal.css';
+
+import 'react-bootstrap/Modal'
 
 function Header() {
 
@@ -11,12 +15,15 @@ function Header() {
         const data = new Date();
         const hora = data.getHours();
 
+        console.log(hora)
+
+
         if (hora <= 12) {
             return (
                 <text>Bom dia</text>
             )
         };
-        if (hora > 12) {
+        if (hora >= 13) {
             return (
                 <text>Boa tarde</text>
             )
@@ -26,7 +33,7 @@ function Header() {
                 <text>Boa noite</text>
             );
         }
-        if (hora == 0) {
+        if (hora = 0) {
             return (
                 <text>Boa madrugada</text>
             );
@@ -48,12 +55,12 @@ function Header() {
 
             <div className="cabecalho-profile">
                 <img className="cabecalho-profile-img" src={Icon} />
-                <p className="cabecalho-profile-p">{VerificarHora()}, João!</p>
+                <p className="cabecalho-profile-p">
+                        {VerificarHora()}, João!<span class="badge badge-info">CEO</span>
+                        </p>
             </div>
-
             <input className="cabecalho-input"
                 placeholder="O que deseja?"></input>
-            <hr />
         </header>
     )
 }

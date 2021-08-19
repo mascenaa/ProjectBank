@@ -1,9 +1,11 @@
 .cabecalho {
     margin-left: auto;
     margin-right: auto;
-
+    padding-bottom: 6rem;
 }
+
 .cabecalho-titulo {
+    top: 3%;
     font-family: "https://fonts.google.com/specimen/Signika";
     color: #7952B3;
     font-size: 64px;
@@ -13,8 +15,8 @@
 
 .cabecalho-profile {
     position: absolute;
-    top: 4%;
-    left: 79.9%;
+    top: 3%;
+    left: 78.5%;
 
     padding-left: 10px;
     padding-right: 10px;
@@ -38,19 +40,28 @@
 
 .cabecalho-input {
     position: absolute;
-    top: 10%;
+    top: 8%;
     left: 79%;
     text-align: center;
     padding-bottom: 2px;
+    width: 15%;
 
     background-image: url('search.svg');
     background-repeat: no-repeat;
     background-position-y: 5.75px;
     background-position-x: 0.60rem;
-    border: 1px solid #000000;
+    border: 1px solid #343A40;
     box-sizing: border-box;
     border-radius: 112px;
     display: flex;
     flex-direction: column;
     justify-content: end;
+}
+
+.badge.badge-info {
+    
+    margin-top: -1rem;
+    border-radius: 20%;
+    margin-left: 5px;
+    background-color: #343A40;
 }
