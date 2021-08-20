@@ -14,7 +14,6 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "build1": "webpack -p",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
