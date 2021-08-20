@@ -1,13 +1,18 @@
 
 h3 { 
-    color:#8c40ff;
+    color:#7737AC;
 }
 
 .card-p {
     font-size: 20px;
     color: #343A40;
 }
-
+.card-ver{
+    margin-top: 15px;
+    text-align: end;
+    font-size: 14px;
+    color: #343A40;
+}
 
 .cards {
 
@@ -19,14 +24,27 @@ h3 {
 
 .cardBox{
     text-align:justify;
-    border: 1px solid #4a00b9;
-    border-radius: 12px;
-    box-shadow: 7px 7px 3px 2px rgba(121, 82, 179, 0.4);
+    border-radius: 20px;
+    box-shadow: 8px 8px 7px 7px rgba(0, 0, 0, 0.2);
     width: 30%;
     height: 50%;
     padding: 1rem 1rem 1rem 1rem; 
 }
 
+.cardBox:hover{
+    transition: ease-in-out 100ms;
+    width: 30.2%;
+}
+
+.card-button {
+    border: none;
+    background-color: #ffffff;
+
+    border-bottom:1px solid #8c40ff;
+    width: 25%;
+    text-align: center;
+    margin-left: 75%;
+}
 
 .cardBox.investimento {
 
@@ -46,15 +64,15 @@ h3 {
 }
 
 .list-group-item.list-group-item-danger {
-    background-color: #FB3640;
-    color: white;
-    border-radius: 10px 10px 10px 10px;
-    margin-top: 5px;
+    border: 1px solid #ff2323;
+    background-color: #ffd72300;
+    color: black;
+    margin-top: 12px;
 }
 
 .list-group-item.list-group-item-success{
-    background-color: #FDCA40 ;
+    border: 1px solid #23ff40;
+    background-color: #9728ff00 ;
     color: black;
-    margin-top: 5px;
-    border-radius: 10px 10px 10px 10px;
+    margin-top: 12px;
 }

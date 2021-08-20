@@ -9,58 +9,42 @@ import '../header/modal.css';
 import 'react-bootstrap/Modal'
 
 function Header() {
-
+    const nome = "João"
 
     function VerificarHora() {
         const data = new Date();
         const hora = data.getHours();
-
         console.log(hora)
 
 
         if (hora <= 12) {
             return (
-                <text>Bom dia</text>
+                <text>🌞 Bom dia</text>
             )
         };
-        if (hora >= 13) {
+        if (hora < 17) {
             return (
-                <text>Boa tarde</text>
+                <text>⛅ Boa tarde</text>
             )
         };
-        if (hora >= 18) {
+        if (hora > 17) {
             return (
-                <text>Boa noite</text>
+                <text>🌙 Boa noite</text>
             );
-        }
-        if (hora = 0) {
-            return (
-                <text>Boa madrugada</text>
-            );
-        }
     }
-
-
-    function GeradorId() {
-        const id = Math.floor(Math.random() * 10101)
-        return (
-            <text>{id}</text>
-        )
-
-    }
-
+}
     return (
         <header className="cabecalho">
             <h1 className="cabecalho-titulo">ByteBank</h1>
-
             <div className="cabecalho-profile">
-                <img className="cabecalho-profile-img" src={Icon} />
-                <p className="cabecalho-profile-p">
-                        {VerificarHora()}, João!<span class="badge badge-info">CEO</span>
-                        </p>
+                <details open>
+                <summary>Informações <img className="cabecalho-profile-img" src={Icon} /></summary>
+                    <p className="cabecalho-profile-p">{VerificarHora()}, {nome}!</p>
+                    <p className="cabecalho-profile-p">🏧 Agência: 1001-1</p>
+                    <p className="cabecalho-profile-p">👤 CPF: 198.321.323-72</p>
+                    <a className="cabecalho-profile-exit">Sair</a>
+                </details>
             </div>
-            <input className="cabecalho-input"
-                placeholder="O que deseja?"></input>
         </header>
     )
 }

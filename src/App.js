@@ -1,12 +1,15 @@
 import Header from './components/header/header'
 import Cards from './components/cards/CardInvestimento'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
-import '../src/components/header/modal.css'
+import Credit from './components/creditcards/credit'
 
-import wallpaperfirst from '../src/img/wallpaperfirst.svg'
-import wallpaperfundo from '../src/img/wallpaperfundo.svg'
-import ad from '../src/img/ad.svg'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+import '../src/components/header/modal.css';
+
+import wallpaperfirst from '../src/img/wallpaperfirst.svg';
+import wallpaperfundo from '../src/img/wallpaperfundo.svg';
+import ad from '../src/img/ad.svg';
 
 
 export default function App() {
@@ -15,8 +18,11 @@ export default function App() {
         <main className="body">
           <section>
             <Header />
-            <img className="adverse" src={ad} />
+            <a></a>
             <Cards />
+            <Credit />
+
+            <img className="adverse" src={ad} alt=" Adversement, ByteBank"/>
           </section>
           <footer>
             <img className="background-first" src={wallpaperfirst} />

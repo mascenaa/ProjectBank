@@ -1,0 +1,42 @@
+.details {
+    margin-top: -9rem;  
+    width: 100%;
+
+    margin-left:  auto;
+    margin-right: auto;
+}
+
+.details-credit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.details-title {
+    font-size: 36px;
+    text-align: center;
+}
+.details-p {
+    margin-top: -6rem;
+    text-align: center;
+}
+
+.cartao {
+    margin-left:  auto;
+    margin-right: auto;
+    width: 25%;
+
+}
+
+
+
+.status.Negativo{
+    color:#FF4E4E;
+}
+.status.Positivo{
+    color:#86FF4E;
+}
+.status.Neutro{
+    color:aliceblue;
+}
