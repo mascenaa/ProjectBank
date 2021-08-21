@@ -1,0 +1,35 @@
+.profile-actions {
+    margin-top: 2rem;
+
+
+}
+.profile-actions.p{
+    margin-top: -5px;
+}
+
+
+.profile-options {
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 3rem;
+
+}
+
+.profile-actions-button {
+    color:#343A40;
+    text-decoration: none;
+    border: none;
+    background-color: #ffffff;
+    border-bottom:1px solid #8c40ff;
+    width: 20%;
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+
+.list-group-item.acao {
+
+    margin-bottom: 2rem;
+}

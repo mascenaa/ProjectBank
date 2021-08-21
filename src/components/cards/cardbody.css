@@ -32,13 +32,18 @@ h3 {
 }
 
 .card-button {
+    color:#343A40;
+    text-decoration: none;
     border: none;
     background-color: #ffffff;
-
+    margin-top:1rem ;
     border-bottom:1px solid #8c40ff;
     width: 25%;
     text-align: center;
     margin-left: 75%;
+}
+.card-button.investir {
+    margin-left: 85%;
 }
 
 .cardBox.investimento {
@@ -59,14 +64,14 @@ h3 {
 }
 
 .list-group-item.list-group-item-danger {
-    border: 1px solid #ff2323;
+    border: 1px solid #3D087B;
     background-color: #ffd72300;
     color: black;
     margin-top: 12px;
 }
 
 .list-group-item.list-group-item-success{
-    border: 1px solid #23ff40;
+    border: 1px solid #3D087B;
     background-color: #9728ff00 ;
     color: black;
     margin-top: 12px;

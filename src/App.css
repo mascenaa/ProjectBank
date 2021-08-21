@@ -9,6 +9,14 @@ footer {
 
 }
 
+hr {
+    margin-top: -2rem;
+    border: 3px solid #560088;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .adverse{
 
     margin-top: 5rem;
