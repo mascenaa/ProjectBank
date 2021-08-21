@@ -1,0 +1,60 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Login-Title {
+    margin-left: 5rem;
+    margin-top: 3rem;
+    font-size: 64px;
+    color:#7952B3;
+}
+
+
+form {
+    display: flex;
+    flex-direction:column;
+    
+    margin-left:7rem;
+    margin-bottom: 9rem;
+}
+
+label {
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.label-senha {
+
+    margin-top: 15px;
+}
+
+input {
+    padding-left: 12px;
+    height: 4rem;
+    width: 25%;
+    margin-top: 1rem;
+    border: none;
+    border-bottom: 2px solid #7952B3;
+}
+
+.loginbutton {
+    margin-left: 8%;
+    width: 8%;
+    margin-top: 2rem;
+    background-color: #7952b300;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #7952B3;
+}
+
+#img1 {
+    margin-top: 25.8%;
+    position: absolute;
+    width: 100%;  
+}
+
+#img2 {
+    width: 100%; 
+}
