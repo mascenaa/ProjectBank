@@ -13,7 +13,7 @@ const PagesRoot = () => (
 
     <Router>
         <Switch>
-            <Route path="/login" component={Login} />
+            <Route id="root" path="/Login" component={Login} />
             <Route path="/" component={Home} />
         </Switch>
     </Router>

@@ -7,6 +7,7 @@ import {
     Link
 } from "react-router-dom";
 
+//Style
 import './investimentos.css'
 import './cardbody.css';
 import 'react-bootstrap';
@@ -38,15 +39,9 @@ function Cards() {
         }
     };
 
-    parseInt(money + 2)
-    console.log(money)
-
-
-
-
     function Porcentagem() {
         const id = Math.floor(Math.random() * 25) - 12
-           
+
         return (
             <text>{id + 1}</text>
         )

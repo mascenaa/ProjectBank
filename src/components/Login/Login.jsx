@@ -20,17 +20,19 @@ export default function UserLogin() {
     const goHome = () => history.push('/');
 
 
+
     return (
         <div className="Login">
             <h1 className="Login-Title"><strong>ByteBank</strong></h1>
 
-            <form>
+            <form method="post">
                 <label>Usuario</label>
 
                 <input
                     placeholder="CPF"
                     type="text"
-                    name="usuario" />
+                    name="usuario"                   
+                    />
 
                 <label
                 className="label-senha">Senha</label>
@@ -40,14 +42,14 @@ export default function UserLogin() {
                     type="password"
                     name="password"
                 />
+
                 <div>
                     <Router>
                         <button to="/" className="loginbutton" onClick={goHome}>LogIn</button>
                     </Router>
                 </div>
+
             </form>
-            <img id="img1" className="background-first" src={wallpaperfirst} />
-            <img id="img2" className="background-second" src={wallpaperfundo} />
         </div>
     )
 }
