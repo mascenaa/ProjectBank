@@ -1,1 +1,4 @@
-## Piseiro ta rolando e não pode parar.
+## ByteBank
+
+ O nome que foi escolhido a este projeto, vem em homenagem
+a a alura, que criou o nome para diversos projetos dentro do curso
